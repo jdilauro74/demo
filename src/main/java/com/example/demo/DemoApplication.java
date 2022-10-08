@@ -19,8 +19,8 @@ public class DemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		repository.save(new User("Joe DiLauro", "NY Mets"));
-		repository.save(new User("Kevin Obrien", "NY Jets"));
+		repository.save(new User("Joe", "NY Mets"));
+		repository.save(new User("Kevin", "NY Jets"));
 		repository.save(new User("Sarma", "Dallas Cowboys"));
 		repository.save(new User("Dylan", "Rocket League"));
 		repository.save(new User("Gianna", "Dallas Cowboys"));
